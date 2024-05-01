@@ -24,15 +24,15 @@ The application performs the following main functions:
 
 1. **Install Dependencies**: Ensure all required Python libraries and packages are installed. You can use `pip` to install dependencies listed in `requirements.txt`.
    
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 2. **Run the Application**: Execute the main Python script to start the application.
 
-'''
+```
 chainlit run main.py
-'''
+```
 
 3. **Upload PDF Files**: Users can upload one or more PDF files containing text content to begin processing.
 
