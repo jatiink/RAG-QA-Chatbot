@@ -21,22 +21,24 @@ The application performs the following main functions:
 - **Source Document References**: Optionally includes references to the source documents used for answering questions.
 
 ## Setup
+1.  Install Ollama from [here](https://ollama.com/download)
+      
+2. **Install Dependencies**: Ensure all required Python libraries and packages are installed. You can use `pip` to install dependencies listed in `requirements.txt`.
+   ```
+   pip install -r requirements.txt
+   ```
+3. Need to pull llama 2 model from ollama:
+   ```
+   ollama pull llama3
+   ```
+4. **Run the Application**: Execute the main Python script to start the application.
+   ```
+   chainlit run main.py
+   ```
 
-1. **Install Dependencies**: Ensure all required Python libraries and packages are installed. You can use `pip` to install dependencies listed in `requirements.txt`.
-   
-```
-pip install -r requirements.txt
-```
+5. **Upload PDF Files**: Users can upload one or more PDF files containing text content to begin processing.
 
-2. **Run the Application**: Execute the main Python script to start the application.
-
-```
-chainlit run main.py
-```
-
-3. **Upload PDF Files**: Users can upload one or more PDF files containing text content to begin processing.
-
-4. **Ask Questions**: Once the processing is complete, users can ask questions, and the assistant will provide answers based on the processed text.
+6. **Ask Questions**: Once the processing is complete, users can ask questions, and the assistant will provide answers based on the processed text.
 
 ## Usage
 
